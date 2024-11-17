@@ -7,7 +7,7 @@ import pandas as pd
 pipe = pickle.load(open('model.pkl', 'rb'))
 df = pickle.load(open('dataframe.pkl', 'rb'))
 
-# Streamlit UI
+# Streamlit UI(UserInterface)
 st.title("Car Price Predictor")
 
 # Input selection
